@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Sun, Moon } from 'lucide-react';
+import { AlignRight, CircleX, Sun, Moon } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 interface NavigationProps {
@@ -27,6 +27,17 @@ const Navigation: React.FC<NavigationProps> = ({ isDark, toggleTheme }) => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isMobileMenuOpen]);
 
   // Animation variants for the side drawer
   const drawerVariants = {
@@ -128,7 +139,7 @@ const Navigation: React.FC<NavigationProps> = ({ isDark, toggleTheme }) => {
               className="text-gray-700 dark:text-gray-200 hover:text-orange-600 dark:hover:text-orange-400 p-2 rounded-lg border border-transparent hover:border-orange-200 dark:hover:border-orange-400 transition"
               aria-label="Open menu"
             >
-              <Menu size={24} />
+              <AlignRight size={24} />
             </button>
           </div>
           </div>
@@ -171,7 +182,7 @@ const Navigation: React.FC<NavigationProps> = ({ isDark, toggleTheme }) => {
                   className="p-2 rounded-full hover:bg-orange-100 dark:hover:bg-gray-800 transition"
                   aria-label="Close menu"
                 >
-                  <X size={24} />
+                  <CircleX size={24} />
                 </button>
               </div>
               <nav className="flex flex-col gap-2 pb-24 mt-2">
