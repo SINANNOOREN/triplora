@@ -60,7 +60,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      details: 'info@indiaexplore.com',
+      details: 'info@Triplora.com',
       subDetails: 'We reply within 24 hours'
     },
     {

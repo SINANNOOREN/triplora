@@ -15,7 +15,7 @@ const AboutUs = () => {
           className="text-center mb-10 sm:mb-16"
         >
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            About IndiaExplore
+            About Triplora
           </h2>
           <div className="w-16 sm:w-24 h-1 bg-orange-600 mx-auto mb-8"></div>
         </motion.div>

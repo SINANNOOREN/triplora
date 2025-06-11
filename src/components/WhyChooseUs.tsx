@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Why Choose IndiaExplore
+            Why Choose Triplora
           </h2>
           <div className="w-24 h-1 bg-orange-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">

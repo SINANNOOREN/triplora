@@ -92,7 +92,7 @@ const Footer = () => {
           className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 flex flex-col md:flex-row justify-center items-center gap-4"
         >
           <div className="text-gray-300 text-sm mb-2 md:mb-0 text-center md:text-left">
-            © 2024 IndiaExplore. All rights reserved.
+            © 2025 Triplora. All rights reserved.
           </div>
           
          

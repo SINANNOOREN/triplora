@@ -164,7 +164,7 @@ const Navigation: React.FC<NavigationProps> = ({ isDark, toggleTheme }) => {
                   className="text-xl font-extrabold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent tracking-tight focus:outline-none"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  IndiaExplore
+                  Triplora
                 </a>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
