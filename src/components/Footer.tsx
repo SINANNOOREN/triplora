@@ -15,19 +15,13 @@ const Footer = () => {
       { name: 'Golden Triangle', href: '#' },
       { name: 'Rajasthan Palaces', href: '#' },
       { name: 'Himalayan Valleys', href: '#' }
-    ],
-    'Support': [
-      { name: 'Customer Service', href: '#' },
-      { name: 'Travel Insurance', href: '#' },
-      { name: 'Booking Terms', href: '#' },
-      { name: 'Privacy Policy', href: '#' }
     ]
   };
 
   return (
     <footer className="bg-gray-900 px-2 text-white">
       <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 py-8 sm:py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Company Info */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -40,7 +34,6 @@ const Footer = () => {
               Discover the incredible beauty and rich culture of India with our expertly 
               crafted travel experiences. Your journey of a lifetime awaits.
             </p>
-            
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-gray-300">
                 <MapPin className="w-4 h-4 text-orange-400" />
@@ -91,11 +84,9 @@ const Footer = () => {
           viewport={{ once: true }}
           className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 flex flex-col md:flex-row justify-center items-center gap-4"
         >
-          <div className="text-gray-300 text-sm mb-2 md:mb-0 text-center md:text-left">
+          <div className="text-gray-300 text-sm text-center">
             © 2025 Triplora. All rights reserved.
           </div>
-          
-         
         </motion.div>
       </div>
     </footer>
