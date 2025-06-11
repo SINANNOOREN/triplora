@@ -13,46 +13,47 @@ const Destinations = () => {
 
   const destinations = [
     {
-      name: 'Kerala Backwaters',
-      image: 'https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80',
+      name: 'munnar',
+      image:'https://img.freepik.com/free-photo/beautiful-strawberry-garden-sunrise-doi-ang-khang-chiang-mai-thailand_335224-762.jpg?uid=R180539201&ga=GA1.1.487039513.1735102471&semt=ais_hybrid&w=740'
+   ,
       description: 'Serene waterways and lush landscapes',
       rating: 4.9,
-      price: 'From ₹15,000'
+      price: 'From ₹5,000'
     },
     {
       name: 'Rajasthan Palaces',
       image: 'https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80',
       description: 'Royal heritage and magnificent architecture',
       rating: 4.8,
-      price: 'From ₹20,000'
+      price: 'From ₹10,000'
     },
     {
       name: 'Himalayan Valleys',
       image: 'https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80',
       description: 'Majestic mountains and pristine nature',
       rating: 4.9,
-      price: 'From ₹25,000'
+      price: 'From ₹15,000'
     },
     {
       name: 'Goa Beaches',
       image: 'https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80',
       description: 'Golden sands and azure waters',
       rating: 4.7,
-      price: 'From ₹12,000'
+      price: 'From ₹8,000'
     },
     {
       name: 'Desert Safari',
       image: 'https://images.unsplash.com/photo-1469041797191-50ace28483c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80',
       description: 'Adventure in the Thar Desert',
       rating: 4.6,
-      price: 'From ₹18,000'
+      price: 'From ₹12,000'
     },
     {
       name: 'Hill Stations',
       image: 'https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80',
       description: 'Cool climate and scenic beauty',
       rating: 4.8,
-      price: 'From ₹16,000'
+      price: 'From ₹10,000'
     }
   ];
 

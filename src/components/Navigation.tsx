@@ -74,7 +74,7 @@ const Navigation: React.FC<NavigationProps> = ({ isDark, toggleTheme }) => {
           >
        <a
   href="#home"
-  className="flex items-center space-x-2 text-2xl font-extrabold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent tracking-tight drop-shadow-sm focus:outline-none"
+  className="flex items-center  text-2xl font-extrabold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent tracking-tight drop-shadow-sm focus:outline-none"
   onClick={() => typeof setIsMobileMenuOpen === 'function' && setIsMobileMenuOpen(false)}
 >
   <img

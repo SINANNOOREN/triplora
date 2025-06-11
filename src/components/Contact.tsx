@@ -66,7 +66,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Visit Us',
-      details: 'Mumbai, Maharashtra',
+      details: 'Malappuram Kerala',
       subDetails: 'India Tourism Office'
     }
   ];
