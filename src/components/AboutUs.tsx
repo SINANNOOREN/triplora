@@ -1,9 +1,10 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
+import Counter from './Counter';
 
 const AboutUs = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const isInView = useInView(ref, { once: false, margin: '-100px' });
 
   return (
     <section id="about" className="py-12 px-2 sm:py-20 bg-gray-50 dark:bg-gray-900">
@@ -43,9 +44,9 @@ const AboutUs = () => {
             
             <div className="grid grid-cols-3 gap-4 sm:gap-6">
               {[
-                { number: '10+', label: 'Years Experience' },
-                { number: '50k+', label: 'Happy Travelers' },
-                { number: '200+', label: 'Destinations' },
+                { number: 10, label: 'Years Experience', suffix: '+' },
+                { number: 50, label: 'Happy Travelers', suffix: 'k+' },
+                { number: 200, label: 'Destinations', suffix: '+' },
               ].map((stat, index) => (
                 <motion.div
                   key={index}
@@ -55,7 +56,7 @@ const AboutUs = () => {
                   className="text-center"
                 >
                   <div className="text-2xl md:text-3xl font-bold text-orange-600 dark:text-orange-400">
-                    {stat.number}
+                    <Counter to={stat.number} inView={isInView} suffix={stat.suffix} />
                   </div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">
                     {stat.label}
