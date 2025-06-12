@@ -47,9 +47,9 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.2 }}
             className="text-2xl xs:text-3xl sm:text-5xl md:text-7xl font-bold mb-4 sm:mb-6 leading-tight"
           >
-            Discover the 
-            <span className="text-orange-300"> Magic </span>
-            of India
+           Explore the World with 
+            <span className="text-orange-300">Triplora  </span>
+          
           </motion.h1>
           
           <motion.p
@@ -58,8 +58,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.5 }}
             className="text-sm xs:text-base sm:text-xl md:text-2xl mb-6 sm:mb-8 text-gray-200"
           >
-            Experience the incredible diversity, rich culture, and breathtaking landscapes 
-            that make India truly extraordinary
+           Discover unforgettable journeys, curated experiences, and seamless travel planning—your adventure starts here.
           </motion.p>
 
           <motion.div

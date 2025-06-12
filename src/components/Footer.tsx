@@ -11,10 +11,10 @@ const Footer = () => {
       { name: 'Contact', href: '#contact' }
     ],
     'Popular Destinations': [
-      { name: 'Kerala Backwaters', href: '#' },
-      { name: 'Golden Triangle', href: '#' },
-      { name: 'Rajasthan Palaces', href: '#' },
-      { name: 'Himalayan Valleys', href: '#' }
+      { name: 'Delhi & Taj Mahal', href: '#' },
+      { name: 'Goa', href: '#' },
+      { name: 'Manali, Himachal Pradesh', href: '#' },
+      { name: 'Munnar, Kerala', href: '#' }
     ]
   };
 

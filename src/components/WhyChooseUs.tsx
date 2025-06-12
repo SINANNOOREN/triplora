@@ -104,8 +104,9 @@ const WhyChooseUs = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-white text-orange-600 px-4 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors duration-200"
-            >
-              Plan Your Journey
+           
+           >
+             <a href="#contact"> Plan Your Journey</a>
             </motion.button>
           </div>
         </motion.div>

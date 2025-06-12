@@ -28,18 +28,18 @@ const AboutUs = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-6">
-              Rooted in India, Inspired by Adventure
+             Your Trusted Travel Companion
             </h3>
             <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-              Founded with a deep love for India's incredible diversity, IndiaExplore has been 
-              crafting unforgettable journeys for over a decade. We believe that travel is not 
-              just about visiting places—it's about connecting with cultures, creating memories, 
-              and discovering the extraordinary in the everyday.
+             At Triplora, we believe that travel is more than just reaching a destination—it's about
+              experiencing the journey. Founded with a passion for exploration and a commitment to
+              exceptional service, Triplora offers tailor-made travel experiences across India and beyond.
             </p>
             <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-              From the snow-capped Himalayas to the sun-kissed beaches of Goa, from the bustling 
-              streets of Mumbai to the serene backwaters of Kerala, we help you experience the 
-              real India through authentic, personalized travel experiences.
+              Whether you're seeking serene escapes, adventurous trails, or cultural immersions, 
+              our expert team crafts personalized itineraries to suit every traveler's dream. With trusted partners, 
+              seamless planning, and 24/7 support, 
+              we turn your travel aspirations into unforgettable memories.
             </p>
             
             <div className="grid grid-cols-3 gap-4 sm:gap-6">
@@ -74,7 +74,8 @@ const AboutUs = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                src='/aboutpics.jpg'
+               
                 alt="Indian Architecture"
                 className="w-full h-56 sm:h-80 md:h-96 object-cover"
               />
@@ -92,7 +93,7 @@ const AboutUs = () => {
                 Our Mission
               </div>
               <p className="text-gray-600 dark:text-gray-300 text-sm">
-                To showcase India's beauty while supporting local communities and sustainable tourism.
+              To inspire and empower every traveler with seamless, personalized, and unforgettable journeys.
               </p>
             </motion.div>
           </motion.div>

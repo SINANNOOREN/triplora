@@ -11,51 +11,52 @@ const Destinations = () => {
     element?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const destinations = [
-    {
-      name: 'munnar',
-      image:'https://img.freepik.com/free-photo/beautiful-strawberry-garden-sunrise-doi-ang-khang-chiang-mai-thailand_335224-762.jpg?uid=R180539201&ga=GA1.1.487039513.1735102471&semt=ais_hybrid&w=740'
-   ,
-      description: 'Serene waterways and lush landscapes',
-      rating: 4.9,
-      price: 'From ₹5,000'
-    },
-    {
-      name: 'Rajasthan Palaces',
-      image: 'https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80',
-      description: 'Royal heritage and magnificent architecture',
-      rating: 4.8,
-      price: 'From ₹10,000'
-    },
-    {
-      name: 'Himalayan Valleys',
-      image: 'https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80',
-      description: 'Majestic mountains and pristine nature',
-      rating: 4.9,
-      price: 'From ₹15,000'
-    },
-    {
-      name: 'Goa Beaches',
-      image: 'https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80',
-      description: 'Golden sands and azure waters',
-      rating: 4.7,
-      price: 'From ₹8,000'
-    },
-    {
-      name: 'Desert Safari',
-      image: 'https://images.unsplash.com/photo-1469041797191-50ace28483c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80',
-      description: 'Adventure in the Thar Desert',
-      rating: 4.6,
-      price: 'From ₹12,000'
-    },
-    {
-      name: 'Hill Stations',
-      image: 'https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80',
-      description: 'Cool climate and scenic beauty',
-      rating: 4.8,
-      price: 'From ₹10,000'
-    }
-  ];
+const destinations = [
+  {
+    name: 'Munnar, Kerala',
+    image: 'https://img.freepik.com/free-photo/beautiful-strawberry-garden-sunrise-doi-ang-khang-chiang-mai-thailand_335224-762.jpg?uid=R180539201&ga=GA1.1.487039513.1735102471&semt=ais_hybrid&w=740',
+    description: 'Lush tea gardens, misty hills, and cool climate',
+    rating: 4.9,
+    price: 'From ₹5,000'
+  },
+  {
+    name: 'Jaipur, Rajasthan',
+    image: 'https://img.freepik.com/free-photo/hawa-mahal-palace-jaipur-india_53876-31311.jpg?uid=R180539201&ga=GA1.1.487039513.1735102471&semt=ais_hybrid&w=740',
+    description: 'Royal palaces, vibrant bazaars, and pink city charm',
+    rating: 4.8,
+    price: 'From ₹10,000'
+  },
+  {
+    name: 'Manali, Himachal Pradesh',
+    image: 'https://img.freepik.com/free-photo/beautiful-village-snow-covered-mountain_181624-4248.jpg?uid=R180539201&ga=GA1.1.487039513.1735102471&semt=ais_hybrid&w=740',
+    description: 'Snow-capped peaks and thrilling adventure sports',
+    rating: 4.9,
+    price: 'From ₹9,000'
+  },
+  {
+    name: 'Goa',
+    image: 'https://img.freepik.com/free-photo/beautiful-tropical-beach-sea_74190-6772.jpg?uid=R180539201&ga=GA1.1.487039513.1735102471&semt=ais_hybrid&w=740',
+    description: 'Sun-kissed beaches, nightlife, and coastal cuisine',
+    rating: 4.7,
+    price: 'From ₹8,000'
+  },
+{
+  name: 'Mysuru, Karnataka',
+  image: 'https://media.istockphoto.com/id/172124032/photo/mysore-palace-at-dusk.jpg?s=612x612&w=0&k=20&c=paO74C_dVsY14IbK0RNqs0TD-lSteQy-AW5CnQFEb_4=',
+  description: 'Majestic palaces, rich heritage, and vibrant festivals',
+  rating: 4.7,
+  price: 'From ₹7,500'
+}
+,
+  {
+    name: 'Delhi & Taj Mahal',
+    image: 'https://img.freepik.com/premium-photo/taj-mahal-unesco-world-heritage-site-most-famous-monument-india-agra-city-uttar-pradesh-state_261932-6841.jpg?uid=R180539201&ga=GA1.1.487039513.1735102471&semt=ais_hybrid&w=740',
+    description: 'Iconic monuments, rich history, and cultural fusion',
+    rating: 4.8,
+    price: 'From ₹11,000'
+  }
+];
+
 
   return (
     <section id="destinations" className="py-12 px-2 sm:py-20 bg-white dark:bg-gray-800">
@@ -71,8 +72,7 @@ const Destinations = () => {
           </h2>
           <div className="w-16 sm:w-24 h-1 bg-orange-600 mx-auto mb-8"></div>
           <p className="text-base sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Explore India's most enchanting destinations, each offering unique experiences 
-            and unforgettable memories
+           Discover the most loved travel spots handpicked by Triplora – where every journey becomes a story.
           </p>
         </motion.div>
 

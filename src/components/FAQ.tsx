@@ -13,40 +13,41 @@ const FAQ = () => {
     element?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const faqs = [
-    {
-      question: "What is the best time to visit India?",
-      answer: "The best time to visit India depends on the region. Generally, October to March is ideal for most parts of India with pleasant weather. For hill stations like Manali and Shimla, April to June is perfect. Kerala and Goa are great year-round destinations."
-    },
-    {
-      question: "Do I need a visa to visit India?",
-      answer: "Most foreign nationals require a visa to enter India. We offer e-visa assistance for tourists, which is valid for 30 days and can be applied online. Our team will guide you through the entire visa application process."
-    },
-    {
-      question: "What types of accommodations do you provide?",
-      answer: "We offer a range of accommodations from luxury 5-star hotels and heritage palaces to comfortable 3-star hotels and boutique properties. All our accommodations are carefully selected for quality, location, and authentic Indian hospitality."
-    },
-    {
-      question: "Is it safe to travel in India?",
-      answer: "India is generally safe for tourists when proper precautions are taken. We provide 24/7 support, experienced local guides, and ensure all our itineraries follow safe routes. We also provide safety guidelines and emergency contacts for peace of mind."
-    },
-    {
-      question: "What is included in your travel packages?",
-      answer: "Our packages typically include accommodation, daily breakfast, private transportation, professional English-speaking guides, entrance fees to monuments, and 24/7 customer support. International flights and personal expenses are usually not included."
-    },
-    {
-      question: "Can I customize my travel itinerary?",
-      answer: "Absolutely! We specialize in creating personalized travel experiences. Whether you want to add extra days, change destinations, or include specific activities, our team will work with you to create your perfect Indian adventure."
-    },
-    {
-      question: "What should I pack for my India trip?",
-      answer: "Pack comfortable, modest clothing suitable for the climate. Include sunscreen, insect repellent, any personal medications, and comfortable walking shoes. We provide a detailed packing checklist based on your specific destinations and travel dates."
-    },
-    {
-      question: "Do you provide travel insurance?",
-      answer: "We strongly recommend travel insurance and can assist you in selecting appropriate coverage. While we don't provide insurance directly, we work with trusted partners to ensure you have comprehensive protection during your journey."
-    }
-  ];
+const faqs = [
+  {
+    question: "Why should I choose Triplora for my trip?",
+    answer: "At Triplora, we craft personalized travel experiences with expert planning, verified stays, local guides, and 24/7 support — ensuring your journey is smooth, safe, and unforgettable."
+  },
+  {
+    question: "Can I customize my travel itinerary with Triplora?",
+    answer: "Yes! We specialize in custom travel planning. Whether you're looking for a romantic escape, cultural tour, or adventure trip, our team tailors every detail to your preferences."
+  },
+  {
+    question: "What destinations does Triplora cover?",
+    answer: "We offer curated travel packages across India — from Kerala's backwaters and Goa’s beaches to Rajasthan's forts and the Himalayas’ serenity. International packages are also available on request."
+  },
+  {
+    question: "Is Triplora suitable for family or group travel?",
+    answer: "Absolutely! We offer packages for families, honeymooners, solo travelers, and groups — including guided tours, safe accommodations, and activities suitable for all age groups."
+  },
+  {
+    question: "What’s included in Triplora’s travel packages?",
+    answer: "Our packages usually include accommodation, transportation, local guides, daily breakfast, entry tickets to attractions, and round-the-clock support. Optional add-ons like flights and activities can be arranged."
+  },
+  {
+    question: "How do I book a trip with Triplora?",
+    answer: "Booking is simple — contact us via our website or WhatsApp, and our travel consultant will guide you through destination selection, itinerary planning, and payment options."
+  },
+  {
+    question: "Is it safe to travel with Triplora?",
+    answer: "Safety is our priority. We partner with trusted local vendors, offer secure transportation, and provide emergency support lines to ensure a worry-free travel experience."
+  },
+  {
+    question: "Do you offer travel assistance like visas or insurance?",
+    answer: "Yes, we assist with visa applications and guide you in choosing reliable travel insurance through our partner providers. We’re here to support you every step of the way."
+  }
+];
+
 
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
