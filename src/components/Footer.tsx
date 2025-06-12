@@ -29,7 +29,7 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-orange-400 mb-4">Triplora</h3>
+            <h3 className="text-2xl font-bold  text-orange-400 mb-4">Triplora</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Discover the incredible beauty and rich culture of India with our expertly 
               crafted travel experiences. Your journey of a lifetime awaits.

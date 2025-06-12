@@ -56,7 +56,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="text-sm xs:text-base px-2 sm:text-xl md:text-2xl mb-6 sm:mb-8 text-gray-200"
+            className="text-sm xs:text-base px-4 sm:text-xl md:text-2xl mb-6 sm:mb-8 text-gray-200"
           >
            Discover unforgettable journeys, curated experiences, and seamless travel planning—your adventure starts here.
           </motion.p>
