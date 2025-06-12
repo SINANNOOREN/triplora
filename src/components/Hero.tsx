@@ -48,7 +48,7 @@ const Hero = () => {
             className="text-2xl xs:text-3xl sm:text-5xl md:text-7xl font-bold mb-4 sm:mb-6 leading-tight"
           >
            Explore the World with 
-            <span className="text-orange-300">Triplora  </span>
+            <span className="text-orange-400">Triplora  </span>
           
           </motion.h1>
           
