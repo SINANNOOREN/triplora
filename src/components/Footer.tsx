@@ -29,7 +29,18 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold  text-orange-400 mb-4">Triplora</h3>
+   <h2
+
+  className="flex items-center text-2xl font-extrabold mb-2 bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent tracking-tight drop-shadow-sm focus:outline-none"
+>
+  <img
+    src="/logotr.png" // Ensure this image exists in the public folder
+    alt="Triplora Logo"
+    className="w-9 h-9 "
+  />
+  <span>Triplora</span>
+</h2>
+
             <p className="text-gray-300 mb-6 leading-relaxed">
               Discover the incredible beauty and rich culture of India with our expertly 
               crafted travel experiences. Your journey of a lifetime awaits.
