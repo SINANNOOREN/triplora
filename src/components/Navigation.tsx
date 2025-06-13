@@ -80,7 +80,7 @@ const Navigation: React.FC<NavigationProps> = ({ isDark, toggleTheme }) => {
   <img
     src="/logotr.png" // Make sure your logo is in the public folder with this name
     alt="Triplora Logo"
-    className="w-9 h-9"
+    className="w-10 h-10"
   />
   <span>Triplora</span>
 </a>
