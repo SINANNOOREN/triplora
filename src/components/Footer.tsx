@@ -56,7 +56,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <Mail className="w-4 h-4 text-orange-400" />
-                <span className="text-sm">info@indiaexplore.com</span>
+                <span className="text-sm">info@triplora.com</span>
               </div>
             </div>
           </motion.div>
