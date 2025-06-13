@@ -49,7 +49,6 @@ const Hero = () => {
           >
            Explore the World with 
             <span className="text-orange-400">Triplora  </span>
-          
           </motion.h1>
           
           <motion.p
